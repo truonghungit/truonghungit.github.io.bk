@@ -321,7 +321,7 @@ img{
 }
 
 .navbar_outer.light .navbar li a:hover{
-	color: #1a1a1a;
+	color: #06A7F3;
 }
 
 .navbar_outer.fixed{
@@ -1909,6 +1909,7 @@ img{
 
 .contact_inner .overlay .social_icons{
 	text-align: center;
+    margin-top: 100px;
 }
 
 .contact_inner .overlay .social_icons a{
@@ -1923,6 +1924,7 @@ img{
 
 .contact_inner .overlay .social_icons a:hover{
 	color: #ffffff;
+    color: #06A7F3;
 }
 
 /*
@@ -2229,26 +2231,26 @@ img{
     position: fixed;
     bottom: 0;
     right: 10px;
-    padding: 15px 20px;
-    background: #555555;
-    color: #ffffff;
-    font-size: 25px;
+    padding: 0px 10px;
+    color: #c64141;
+    font-size: 50px;
     z-index: 9999;
-	display: none;
-	cursor: pointer;
-	-webkit-transition: all 400ms linear;
-	-moz-transition: all 400ms linear;
-	-o-transition: all 400ms linear;
-	transition: all 400ms linear;
+    display: none;
+    cursor: pointer;
+    -webkit-transition: all 400ms linear;
+    -moz-transition: all 400ms linear;
+    -o-transition: all 400ms linear;
+    transition: all 400ms linear;
+}
+
+.scroll_to_top:hover{
+    bottom: #444;
 }
 
 .scroll_to_top i{
 	display: block;
 }
 
-.scroll_to_top:hover{
-	background: #333333;
-}
 
 
 /*
@@ -3218,15 +3220,21 @@ body.theme_10 #portfolio_popup .section_title span{
 	.section_block .section_title{
 		padding-left: 22px;
 	}
+
+
 }
 
-
-
-
-
-
-
-
+@media (max-width: 479px) {
+    .section_block.eduempl .items {
+       text-align: left;
+    }
+    .section_block.eduempl .items .item .date {
+        float: none !important;
+    }
+    .section_block.eduempl .items .item .bullet {
+        margin-left: -12px !important;
+    }
+}
 
 
 .theme_configs{
