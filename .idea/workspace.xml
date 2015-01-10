@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92516e09-d0ae-4cf8-8b00-cc34a7960a48" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="truonghungit.github.io.iws" />
@@ -61,8 +59,8 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.686907" vertical-offset="32380" max-vertical-offset="57681">
-              <caret line="1926" column="19" selection-start-line="1926" selection-start-column="19" selection-end-line="1926" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.29981026" vertical-offset="54684" max-vertical-offset="57681">
+              <caret line="3226" column="22" selection-start-line="3226" selection-start-column="19" selection-end-line="3226" selection-end-column="22" />
               <folding>
                 <element signature="e#23223#23492#2" expanded="true" />
               </folding>
@@ -568,12 +566,12 @@
       <updated>1420880422920</updated>
       <workItem from="1420880421741" duration="344000" />
       <workItem from="1420880854068" duration="3976000" />
-      <workItem from="1420884946345" duration="13595000" />
+      <workItem from="1420884946345" duration="14066000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17915000" />
+    <option name="totallyTimeSpent" value="18386000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="728" extended-state="0" />
@@ -724,8 +722,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.686907" vertical-offset="32380" max-vertical-offset="57681">
-          <caret line="1926" column="19" selection-start-line="1926" selection-start-column="19" selection-end-line="1926" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.29981026" vertical-offset="54684" max-vertical-offset="57681">
+          <caret line="3226" column="22" selection-start-line="3226" selection-start-column="19" selection-end-line="3226" selection-end-column="22" />
           <folding>
             <element signature="e#23223#23492#2" expanded="true" />
           </folding>
