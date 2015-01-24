@@ -37,8 +37,9 @@
     border-top: 3px solid;
     height: 50px;
     width: 50px;
-    left: 50%;
-    margin: -20px 0 0 -20px;
+    margin: auto;
+    left: 48%;
+    /*margin: -20px 0 0 -20px;*/
     position: absolute;
     text-align: center;
     top: 50%;
@@ -276,16 +277,16 @@ img {
     z-index: 999999;
 }
 
-.loading_screen > div {
-    position: absolute;
-    width: auto;
-    height: auto;
-    top: 50%;
-    margin-top: -50px;
-    left: 50%;
-    margin-left: -50px;
-    text-align: center;
-}
+/*.loading_screen > div {*/
+    /*position: absolute;*/
+    /*width: auto;*/
+    /*height: auto;*/
+    /*top: 50%;*/
+    /*margin-top: -50px;*/
+    /*left: 50%;*/
+    /*margin-left: -50px;*/
+    /*text-align: center;*/
+/*}*/
 
 #wrapper {
     opacity: 0;
