@@ -22,6 +22,8 @@ jQuery(document).ready(function($){
 				opacity : 1
 			}, 150);
 
+            $(".home-overlay").height($( window ).height());
+
 			var scrollTop = $(window).scrollTop();
 			$menuTop = $(".navbar_outer").offset().top;
 
@@ -108,10 +110,10 @@ jQuery(document).ready(function($){
 		pagination : true
 	});
 
-	$(".home_blog_posts").owlCarousel({
-		items : 3,
-		pagination : false
-	});
+//	$(".home_blog_posts").owlCarousel({
+//		items : 3,
+//		pagination : false
+//	});
 
 	$(".post_slideshow").owlCarousel({
       	singleItem:true,
@@ -149,7 +151,7 @@ jQuery(document).ready(function($){
 
 	// scroll to top button
 	$(".scroll_to_top").click(function(){
-		$('html, body').animate({scrollTop:0}, 300, 'linear');
+		$('html, body').animate({scrollTop:0}, 500, 'linear');
 	});
 	
 	// Portfolio items filter
@@ -219,7 +221,7 @@ jQuery(document).ready(function($){
 		            scaleControl: false,
 		            streetViewControl: true,
 		            overviewMapControl: false
-		        },
+		        }
 			}
 		}).Load();
 	}
@@ -263,10 +265,10 @@ jQuery(document).ready(function($){
 					$(this).easyPieChart({
 						animate: 2000,
 						size: chartBarWidth,
-						lineWidth: 6,
+						lineWidth: 8,
 						scaleColor: false,
 						trackColor: "",
-						barColor: chartBarColor,
+						barColor:  chartBarColor
 					}).addClass("loaded_chart");
 					$(this).find(".num").counterUp({
 						delay: 10,
@@ -301,14 +303,15 @@ jQuery(document).ready(function($){
 			var chartBarColor = $(this).attr("data-bar-color");
 			var	chartBarWidth = $(this).attr("data-bar-width");
 
+
 			if(!$(this).hasClass("loaded_chart")){
 				$(this).easyPieChart({
 					animate: 2000,
 					size: chartBarWidth,
-					lineWidth: 6,
+					lineWidth: 10,
 					scaleColor: false,
 					trackColor: "",
-					barColor: chartBarColor,
+					barColor: chartBarColor
 				}).addClass("loaded_chart");
 				$(this).find(".num").counterUp({
 					delay: 10,
