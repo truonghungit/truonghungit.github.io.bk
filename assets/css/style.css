@@ -27,7 +27,24 @@
     background: #F54F36;
     margin-top: 0;
 }
+.loader-item {
+    background: none repeat scroll 0 0 #ffffff;
+    border-color: #f54f36 !important;
+    border-bottom: 3px solid rgba(0, 0, 0, 0) !important;
+    border-left: 3px solid;
+    border-radius: 200px;
+    border-right: 3px solid;
+    border-top: 3px solid;
+    height: 50px;
+    width: 50px;
+    left: 50%;
+    margin: -20px 0 0 -20px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
 
+
+}
 /*
 ===============================================
 			1. Inits

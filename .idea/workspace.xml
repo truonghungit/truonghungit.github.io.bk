@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="92516e09-d0ae-4cf8-8b00-cc34a7960a48" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/scripts.js" afterPath="$PROJECT_DIR$/assets/js/scripts.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="truonghungit.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +29,8 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.7951807" vertical-offset="9830" max-vertical-offset="21250">
-              <caret line="587" column="92" selection-start-line="587" selection-start-column="66" selection-end-line="587" selection-end-column="92" />
+            <state vertical-scroll-proportion="-2.6626506" vertical-offset="153" max-vertical-offset="21267">
+              <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
               <folding>
                 <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="tag#div#0;tag#div#5;tag#div#2;tag#div#0;tag#div#0;tag#div#0;tag#section#5;tag#body#0;tag#html#0" expanded="false" />
@@ -46,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scripts.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="scripts.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.16468254" vertical-offset="2586" max-vertical-offset="8092">
-              <caret line="157" column="36" selection-start-line="157" selection-start-column="36" selection-end-line="157" selection-end-column="36" />
+            <state vertical-scroll-proportion="-13.964286" vertical-offset="102" max-vertical-offset="8092">
+              <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -66,13 +64,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="41.357143" vertical-offset="17546" max-vertical-offset="63699">
-              <caret line="964" column="24" selection-start-line="964" selection-start-column="24" selection-end-line="964" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.56150794" vertical-offset="363" max-vertical-offset="63988">
+              <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
               <folding>
-                <element signature="e#25570#25839#2" expanded="true" />
+                <element signature="e#25983#26252#2" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,8 +89,8 @@
       <file leaf-file-name="workspace.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="19550">
-              <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="17884">
+              <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -142,8 +140,8 @@
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/tem.html" />
         <option value="$PROJECT_DIR$/assets/js/scripts.js" />
-        <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/css/style.css" />
       </list>
     </option>
   </component>
@@ -571,16 +569,16 @@
       <workItem from="1421082700165" duration="651000" />
       <workItem from="1421243725196" duration="3478000" />
       <workItem from="1421247371364" duration="188000" />
-      <workItem from="1422072544778" duration="19249000" />
+      <workItem from="1422072544778" duration="19882000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44670000" />
+    <option name="totallyTimeSpent" value="45303000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="728" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -600,7 +598,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25344563" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25344563" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -682,7 +680,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="54684" max-vertical-offset="57681">
           <caret line="3226" column="22" selection-start-line="3226" selection-start-column="19" selection-end-line="3226" selection-end-column="22" />
           <folding>
-            <element signature="e#25570#25839#2" expanded="true" />
+            <element signature="e#25983#26252#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -743,7 +741,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="54684" max-vertical-offset="57681">
           <caret line="3226" column="22" selection-start-line="3226" selection-start-column="19" selection-end-line="3226" selection-end-column="22" />
           <folding>
-            <element signature="e#25570#25839#2" expanded="true" />
+            <element signature="e#25983#26252#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -804,7 +802,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="54684" max-vertical-offset="57681">
           <caret line="3226" column="22" selection-start-line="3226" selection-start-column="19" selection-end-line="3226" selection-end-column="22" />
           <folding>
-            <element signature="e#25570#25839#2" expanded="true" />
+            <element signature="e#25983#26252#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -865,7 +863,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="54684" max-vertical-offset="57681">
           <caret line="3226" column="22" selection-start-line="3226" selection-start-column="19" selection-end-line="3226" selection-end-column="22" />
           <folding>
-            <element signature="e#25570#25839#2" expanded="true" />
+            <element signature="e#25983#26252#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -969,8 +967,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="19550">
-          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="731" max-vertical-offset="17884">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1009,10 +1007,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.964286" vertical-offset="102" max-vertical-offset="8092">
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7951807" vertical-offset="9830" max-vertical-offset="21250">
-          <caret line="587" column="92" selection-start-line="587" selection-start-column="66" selection-end-line="587" selection-end-column="92" />
+        <state vertical-scroll-proportion="-2.6626506" vertical-offset="153" max-vertical-offset="21267">
+          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
           <folding>
             <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="tag#div#0;tag#div#5;tag#div#2;tag#div#0;tag#div#0;tag#div#0;tag#section#5;tag#body#0;tag#html#0" expanded="false" />
@@ -1027,19 +1033,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="41.357143" vertical-offset="17546" max-vertical-offset="63699">
-          <caret line="964" column="24" selection-start-line="964" selection-start-column="24" selection-end-line="964" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.56150794" vertical-offset="363" max-vertical-offset="63988">
+          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
           <folding>
-            <element signature="e#25570#25839#2" expanded="true" />
+            <element signature="e#25983#26252#2" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16468254" vertical-offset="2586" max-vertical-offset="8092">
-          <caret line="157" column="36" selection-start-line="157" selection-start-column="36" selection-end-line="157" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
