@@ -53,10 +53,14 @@
 */
 @font-face {
     font-family: 'Lubalin Regular';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/VNF-ITC Lubalin Graph Regular.ttf');
-    unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+    src: url('../fonts/VNF-ITCLubalinGraphRegular.ttf');
+    format('ttf');
+}
+
+@font-face {
+    font-family: 'Strangelove';
+    src: url('../fonts/VNF-Strangelove-text.ttf');
+    format('ttf');
 }
 
 @font-face {
