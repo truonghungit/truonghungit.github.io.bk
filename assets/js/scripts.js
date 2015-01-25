@@ -98,7 +98,8 @@ jQuery(document).ready(function($){
     });
 
 	$(".skill_items.charts").owlCarousel({
-		items : 4
+		items : 4,
+        slideSpeed: 400
 	});
 
 	$(".client_items").owlCarousel({
