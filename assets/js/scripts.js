@@ -152,7 +152,7 @@ jQuery(document).ready(function($){
 
 	// scroll to top button
 	$(".scroll_to_top").click(function(){
-		$('html, body').animate({scrollTop:0}, 800, 'linear');
+		$('html, body').animate({scrollTop:0}, 1500, 'linear');
 	});
 	
 	// Portfolio items filter
