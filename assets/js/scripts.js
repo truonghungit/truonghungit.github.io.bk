@@ -141,6 +141,11 @@ jQuery(document).ready(function($){
 	    }
 	});
 
+	// scroll to top button
+	$(".btn-home").click(function(){
+		$('html, body').animate({scrollTop: $('#about').offset().top - 80}, 750, 'swing');
+	});
+
 	// show-hide scroll to top button on window scroll
 	$(window).scroll(function(){
 		if ($(this).scrollTop() > 200){
@@ -152,7 +157,7 @@ jQuery(document).ready(function($){
 
 	// scroll to top button
 	$(".scroll_to_top").click(function(){
-		$('html, body').animate({scrollTop:0}, 2000, 'linear');
+		$('html, body').animate({scrollTop:0}, 8000, 'linear');
 	});
 	
 	// Portfolio items filter

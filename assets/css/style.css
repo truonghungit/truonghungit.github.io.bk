@@ -51,192 +51,13 @@
 			1. Inits
 ===============================================
 */
-@font-face {
-    font-family: 'Lubalin Regular';
-    src: url('../fonts/VNF-ITCLubalinGraphRegular.ttf');
-    format('ttf');
-}
-
-@font-face {
-    font-family: 'Strangelove';
-    src: url('../fonts/VNF-Strangelove-text.ttf');
-    format('ttf');
-}
-
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v10/K88pR3goAWT7BTt32Z01m1tXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
-    unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
-}
-
-/* cyrillic */
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v10/RjgO7rYTmqiVp7vzi-Q5UVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
-    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-
-/* devanagari */
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v10/ttwNtsRpgsxVmgGGmiUOEltXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
-    unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
-}
-
-/* greek-ext */
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v10/LWCjsQkB6EMdfHrEVqA1KVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
-    unicode-range: U+1F00-1FFF;
-}
-
-/* greek */
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v10/xozscpT2726on7jbcb_pAltXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
-    unicode-range: U+0370-03FF;
-}
-
-/* vietnamese */
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v10/59ZRklaO5bWGqF5A9baEEVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
-    unicode-range: U+0102-0103, U+1EA0-1EF1, U+20AB;
-}
-
-/* latin-ext */
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v10/u-WUoqrET9fUeobQW7jkRVtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
-    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-
-/* latin */
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-
-/* cyrillic-ext */
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://fonts.gstatic.com/s/opensans/v10/k3k702ZOKiLJc3WVjuplzCUUniRZcd_wq8DYmIfsw2A.woff2) format('woff2');
-    unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
-}
-
-/* cyrillic */
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://fonts.gstatic.com/s/opensans/v10/k3k702ZOKiLJc3WVjuplzOXREeHhJi4GEUJI9ob_ak4.woff2) format('woff2');
-    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-
-/* devanagari */
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://fonts.gstatic.com/s/opensans/v10/k3k702ZOKiLJc3WVjuplzI0Uz7fbu6RM5MPetubMKio.woff2) format('woff2');
-    unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
-}
-
-/* greek-ext */
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://fonts.gstatic.com/s/opensans/v10/k3k702ZOKiLJc3WVjuplzPzy0yu4vcvNhe7QLuoE8rU.woff2) format('woff2');
-    unicode-range: U+1F00-1FFF;
-}
-
-/* greek */
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://fonts.gstatic.com/s/opensans/v10/k3k702ZOKiLJc3WVjuplzM9-ZSaZ3mOOsU9E1f6DGWc.woff2) format('woff2');
-    unicode-range: U+0370-03FF;
-}
-
-/* vietnamese */
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://fonts.gstatic.com/s/opensans/v10/k3k702ZOKiLJc3WVjuplzIZI5FoslwusAsZHK_V0XCI.woff2) format('woff2');
-    unicode-range: U+0102-0103, U+1EA0-1EF1, U+20AB;
-}
-
-/* latin-ext */
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://fonts.gstatic.com/s/opensans/v10/k3k702ZOKiLJc3WVjuplzBUOjZSKWg4xBWp_C_qQx0o.woff2) format('woff2');
-    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-
-/* latin */
-@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://fonts.gstatic.com/s/opensans/v10/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-
-/* latin */
-@font-face {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 100;
-    src: local('Raleway Thin'), local('Raleway-Thin'), url(http://fonts.gstatic.com/s/raleway/v9/RJMlAoFXXQEzZoMSUteGWFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-
-/* latin */
-@font-face {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Raleway'), url(http://fonts.gstatic.com/s/raleway/v9/0dTEPzkLWceF7z0koJaX1A.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-
-/* latin */
-@font-face {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Raleway Bold'), local('Raleway-Bold'), url(http://fonts.gstatic.com/s/raleway/v9/JbtMzqLaYbbbCL9X6EvaI_k_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 13px;
-    color: #333333;
+    font-family: 'Roboto', arial, sans-serif;
+    color: #1e1e1e;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     background: #ffffff;
 }
 
@@ -377,7 +198,7 @@ img {
 .navbar_outer.light .navbar li a {
     color: #444444;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: normal;
 }
 
 .navbar_outer.light .navbar li a:hover {
@@ -409,7 +230,6 @@ img {
 
 .navbar li a {
     color: #dedede;
-    font-family: 'Raleway';
     letter-spacing: 2px;
     font-size: 14px;
     float: left;
@@ -454,40 +274,34 @@ img {
 			4. About Page
 ===============================================
 */
-
-.page {
-    padding: 50px 0;
-    /*padding-bottom:80px;*/
+hr.section-separator {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.section-container {
+    padding: 40px 0;
 }
 
 #wrapper .page:last-child {
     padding-bottom: 0;
 }
 
-.page_title {
-    text-align: center;
+.section-title {
     margin-bottom: 80px;
-    text-transform: uppercase;
+    text-align: center;
 }
 
-.page_title span {
-    font-weight: 700;
-    font-size: 45px;
-    font-family: 'Raleway', sans-serif;
-    padding: 10px 20px;
-    /*border: 3px solid #555555;*/
-    display: inline-block;
-    color: #2c3d4f;
+.section-title h2 {
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #444444;
+    text-transform: inherit;
 }
 
 .about_user_picture {
     text-align: center;
-    margin-bottom: 30px;
-    margin-top: 50px;
-}
-
-.about_user_picture .center {
-    margin-bottom: 30px;
 }
 
 .about_user_picture img {
@@ -509,15 +323,8 @@ img {
     display: inline-block;
 }
 
-.about_user_picture .name {
-    font-size: 60px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-}
-
 .about_user_download_cv {
-    text-align: center;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 .section_block {
@@ -547,18 +354,18 @@ img {
     display: inline-block;
 }
 
-.section_block.whoami .section_body .promo-entry {
-    font-size: 17px;
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-}
-
 .user_picture_box {
     background: #f3f3f3;
 }
 
-.more_info_box {
-    background: #fafafa;
+.more_info_box h3{
+    margin-top: 0;
+}
+
+.more_info_box p{
+    font-weight: 100;
+    line-height: 28px;
+    font-size: 15px;
 }
 
 .personal_info_grid {
@@ -1786,23 +1593,15 @@ img {
     width: 50px;
     height: 50px;
 }
-
-.call_to_action {
-    color: #ffffff;
-    padding: 70px;
-}
-
-.call_to_action .text_outer {
-    text-align: center;
+.call_to_action{
+    padding: 50px 0;
 }
 
 .call_to_action .text {
-    font-size: 20px;
-    font-family: 'Raleway', sans-serif;
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 100;
     text-align: center;
-    /*margin-right: 50px;*/
+    color: #fff;
 }
 
 .call_to_action .btn {
@@ -1861,9 +1660,7 @@ img {
 */
 
 #contact {
-    padding-bottom: 0;
 }
-
 .parallax_item.contact_parallax .overlay {
     background: rgba(0, 0, 0, 0.9);
 }
@@ -2306,18 +2103,20 @@ img {
 .scroll_to_top {
     position: fixed;
     bottom: 20px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     right: 10px;
-    padding: 5px 15px;
+    text-align: center;
     color: #c64141;
-    font-size: 50px;
+    font-size: 40px;
     z-index: 9999;
     display: none;
     cursor: pointer;
-    -webkit-transition: all 400ms linear;
-    -moz-transition: all 400ms linear;
-    -o-transition: all 400ms linear;
-    transition: all 400ms linear;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    transition: all 300ms linear;
 }
 
 .scroll_to_top:hover {
@@ -2327,6 +2126,7 @@ img {
 
 .scroll_to_top i {
     display: block;
+    line-height: 50px;
 }
 
 /*
@@ -2483,6 +2283,9 @@ body.theme_1 .accordion .atitle.active {
     color: #ffffff;
 }
 
+body.theme_1 .btn{
+    border-color: #06A7F3;
+}
 body.theme_1 .btn:hover,
 body.theme_1 .btn.active {
     background: #06A7F3;
@@ -3679,11 +3482,20 @@ body.theme_10 #portfolio_popup .section_title span {
     margin-top: 50px;
     margin-bottom: 40px;
 }
+.btn-home{
+    border-color: #06A7F3;
+    color: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 40px;
+}
 
-.info > h2 {
+
+.info > h1 {
     color: #FFFFFF;
-    font-weight: 800;
-    font-size: 90px;
+    font-weight: 700;
+    font-size: 50px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.8);
 }
 
 @media (max-width: 479px) {
@@ -3693,7 +3505,7 @@ body.theme_10 #portfolio_popup .section_title span {
         margin-bottom: 0px;
     }
 
-    .info > h2 {
+    .info > h1 {
         color: #FFFFFF;
         font-weight: 800;
         font-size: 50px;
@@ -3707,7 +3519,7 @@ body.theme_10 #portfolio_popup .section_title span {
         margin-bottom: 0px;
     }
 
-    .info > h2 {
+    .info > h1 {
         color: #FFFFFF;
         font-weight: 800;
         font-size: 40px;
@@ -3719,7 +3531,7 @@ body.theme_10 #portfolio_popup .section_title span {
 
 @media (min-width: 479px) {
 
-    .info > h2 {
+    .info > h1 {
         color: #FFFFFF;
         font-weight: 800;
         font-size: 60px;
@@ -3728,17 +3540,17 @@ body.theme_10 #portfolio_popup .section_title span {
 
 @media (min-width: 768px) {
 
-    .info > h2 {
+    .info > h1 {
         color: #FFFFFF;
-        font-weight: 800;
-        font-size: 80px;
+        font-weight: 700;
+        font-size: 60px;
     }
 }
 
-.info > h3 {
+.info > p {
     color: #FFFFFF;
-    font-weight: 800;
-    font-size: 33px;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 .avatar-section {
