@@ -3042,6 +3042,12 @@ body.theme_10 #portfolio_popup .section_title span {
     .home_blog_posts .post {
         margin-bottom: 15px;
     }
+    .call_to_action{
+        padding: 40px 0;
+    }
+    .call_to_action .text {
+        font-size: 28px;
+    }
 }
 
 /* Landscape phones and down */
