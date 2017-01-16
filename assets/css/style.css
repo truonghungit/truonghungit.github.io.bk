@@ -162,7 +162,7 @@ img {
 
 .main_navbar .navbar_handle {
     font-size: 30px;
-    color: #dedede;
+    color: #ddd;
     cursor: pointer;
     display: none;
     padding: 10px;
@@ -170,10 +170,6 @@ img {
     -moz-transition: all 400ms linear;
     -o-transition: all 400ms linear;
     transition: all 400ms linear;
-}
-
-.main_navbar .navbar_handle:hover {
-    color: #ffffff;
 }
 
 .navbar_box {
@@ -2984,11 +2980,12 @@ body.theme_10 #portfolio_popup .section_title span {
 
     .main_navbar ul li a {
         width: 100%;
+        padding: 15px;
     }
 
     .main_navbar .navbar_handle {
         display: block;
-        text-align: center;
+        text-align: right;
     }
 
     .services .item {
