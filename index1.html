@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="Material design admin template with pre-built apps and pages">
+  <meta name="keywords" content="truonghungit,Hung Pham,Deverloper,Web Deverloper, FrontEnd Deverloper">
+  <meta name="author" content="truonghungit@gmail.com">
+
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,700" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.3.1/smooth-scrollbar.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+  <link rel="stylesheet" href="assets/styles/styles.css" type="text/css">
+</head>
+
+<body class="default-theme">
+
+  <div class="page">
+
+    <div class="personal-info " data-scrollbar>
+      <section class="home">
+        <h1 class="text-uppercase">
+          <span>Hung</span>
+          <span>Pham</span>
+        </h1>
+        <p class="text-uppercase">Web Deverloper</p>
+        <div class="avatar">
+          <img src="assets/images/about-photo.jpg" alt="">
+        </div>
+      </section>
+
+      <section class="about">
+        <div class="title">
+          <h2>About my self</h2>
+          <div class="separator"></div>
+        </div>
+        <p>
+          A confident and creative designer who is self-motivated, self-sufficient and comes to you with a strong
+          background in both print and digital media. John has worked extensively in the automotive and travel
+          industries producing high end business to business and consumer facing designs. He is detail oriented, and
+          has a comprehensive understanding of Photoshop, Indesign, Dreamweaver, Illustrator and the latest web
+          technologies.
+        </p>
+        <p>
+          Possessing a get it done attitude while not compromising on quality means that he will always maximise the
+          impact of any marketing material. As a hard working and ambitious individual he has no problem following
+          instructions from senior designers and customers. Right now he is looking to join a creative team of
+          designers, and to work for a company that only hires the best.
+        </p>
+
+
+      </section>
+
+      <section class="contact">
+        <div class="title">
+          <h2>Contact</h2>
+          <div class="separator"></div>
+        </div>
+        <ul>
+          <li>
+            <img src="assets/images/user.png" alt="">
+            <span>Phạm Trường Hưng </span>
+          </li>
+          <li>
+            <img src="assets//images/phone.png" alt="">
+            <span>0772474842</span>
+          </li>
+          <li>
+            <img src="assets/images/secured-letter.png" alt="">
+            <span>truonghungit@gmail.com</span>
+          </li>
+          <li>
+            <img src="assets/images/geography.png" alt="">
+            <a href="http://truonghungit.github.io/">http://truonghungit.github.io</a>
+          </li>
+          <li>
+            <img src="assets/images/birthday.png" alt="">
+            <span>20/04/1992 </span>
+          </li>
+          <li>
+            <img src="assets/images/home.png">
+            <span>436 Trường Chinh, Phường 13, Tân Bình, Hồ Chí Minh</span>
+          </li>
+        </ul>
+      </section>
+
+    </div>
+
+    <div class="works-and-skills" data-scrollbar>
+
+      <section class="section-wrapper experience">
+        <div class="title">
+          <h2>Work experience</h2>
+          <div class="separator"></div>
+        </div>
+
+        <div class="content">
+          <div>
+            <div class="times0">
+              <div>To</div>
+              <div>From</div>
+            </div>
+            <div>
+              <h3>Title</h3>
+              <p>Description</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-wrapper skills">
+        <div class="title">
+          <h2>Personal skills</h2>
+          <div class="separator"></div>
+        </div>
+
+        <div class="content">
+          <div>
+            <button id="filter-skill-all">ALl</button>
+            <button id="filter-skill-frontend">FrontEnd</button>
+          </div>
+          <div class="grid">
+            <div class="grid-item frontend">ANGULAR</div>
+            <div class="grid-item frontend">TWITTER BOOTSTRAP</div>
+            <div class="grid-item frontend">Ngrx</div>
+            <div class="grid-item metal">NODE.JS</div>
+            <div class="grid-item ">metal</div>
+            <div class="grid-item">nonmetal</div>
+            <div class="grid-item ">metal</div>
+            ...
+          </div>
+        </div>
+      </section>
+
+      <section class="section-wrapper education">
+        <div class="title">
+          <h2>Education</h2>
+          <div class="separator"></div>
+        </div>
+      </section>
+
+      <section class="section-wrapper portfolio">
+        <div class="title">
+          <h2>Latest done projects</h2>
+          <div class="separator"></div>
+        </div>
+
+
+      </section>
+
+    </div>
+
+  </div>
+
+
+  <script>
+    $(document).ready(function () {
+      Scrollbar.initAll();
+
+      var $grid = $('.grid').isotope({
+        itemSelector: '.grid-item'
+      });
+
+      function filter(filterValue) {
+        $grid.isotope({ filter: filterValue });
+      }
+
+      $('#filter-skill-all').on('click', function () {
+        filter('*')
+      });
+
+
+      $('#filter-skill-frontend').on('click', function () {
+        filter('.frontend')
+      })
+
+    });
+  </script>
+</body>
+
+</html>
