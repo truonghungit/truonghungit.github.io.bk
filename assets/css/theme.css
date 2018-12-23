@@ -1,0 +1,410 @@
+/* THEME BLUE GRADIENT */
+
+/*--- 01. GENERAL SETTINGS ---*/
+
+.theme-blue-gradient .title-section {
+  background-image: linear-gradient(to right, #01c1fb 0%, #1457f2 100%);
+}
+
+.theme-blue-gradient .button {
+  background-image: linear-gradient(to right, #01c1fb 0%, #1457f2 100%);
+}
+
+.theme-blue-gradient .button:hover {
+  background-color: rgba(3, 155, 229, 0.9)
+}
+
+/*--- 01. GENERAL SETTINGS END ---*/
+
+/*--- 02. PRELOADER ---*/
+
+/*--- 02. PRELOADER END ---*/
+
+/*--- 03. NAVIGATION -----*/
+
+.theme-blue-gradient .mobile-nav i {
+  color: #1457f2;
+}
+
+.theme-blue-gradient .mobile-nav span {
+  color: #1457f2;
+}
+
+.theme-blue-gradient .menu-text li a:hover {
+  background-image: linear-gradient(to right, #01c1fb 0%, #1457f2 100%);
+}
+
+.theme-blue-gradient .social-links li a {
+  color: #1457f2;
+}
+
+/*--- 03. NAVIGATION END -----*/
+
+/*--- 04. COPYRIGHT ---*/
+
+/*--- 04. COPYRIGHT END---*/
+
+/*--- 04. HOME HEADER ---*/
+
+.theme-blue-gradient .title-page {
+  border-bottom-color: #1457f2;
+  color: #1457f2;
+}
+
+/*--- 04. HOME HEADER END---*/
+
+/*--- 06. ABOUT SECTION ---*/
+
+/*--- Skillbar ---*/
+
+.theme-blue-gradient .skillbar-bar {
+  background-image: linear-gradient(to right, #01c1fb 0%, #1457f2 100%);
+}
+
+.theme-blue-gradient .card {
+  border-color: #1457f2;
+}
+
+.theme-blue-gradient .card>i {
+  color: #1457f2;
+  border-bottom-color: #1457f2;
+}
+
+/*--- 06. ABOUT SECTION END ---*/
+
+/*--- 07. PORTFOLIO SECTION ---*/
+
+.theme-blue-gradient #filter a:hover {
+  background-image: linear-gradient(to right, #01c1fb 0%, #1457f2 100%);
+}
+
+.theme-blue-gradient .active-filter {
+  background-image: linear-gradient(to right, #01c1fb 0%, #1457f2 100%);
+}
+
+/* hover img */
+
+.theme-blue-gradient figure.effect-sadie figcaption::before {
+  background: -webkit-linear-gradient(top, rgba(72, 76, 97, 0) 0%, #1457f2 75%);
+  background: linear-gradient(to bottom, rgba(72, 76, 97, 0) 0%, #1457f2 75%);
+}
+
+/*--- 07. PORTFOLIO SECTION END ---*/
+
+/*--- 09. RESUME SECTION ---*/
+
+.theme-blue-gradient .resume-inner {
+  border-left-color: #1457f2;
+}
+
+.theme-blue-gradient .resume-row:after {
+  background-image: linear-gradient(to right, #01c1fb 0%, #1457f2 100%);
+}
+
+.theme-blue-gradient .resume-date {
+  background-image: linear-gradient(to right, #01c1fb 0%, #1457f2 100%);
+}
+
+/*--- 09. RESUME SECTION END---*/
+
+/*--- 10. CONTACT SECTION ---*/
+
+.theme-blue-gradient .form-control:focus {
+  border-color: #1457f2;
+}
+
+.theme-blue-gradient .text-success {
+  color: #1457f2 !important;
+}
+
+/*--- 10. CONTACT SECTION END ---*/
+
+/*--- 11. MEDIA QUERIES FOR RESPONSIVE DESIGN ---*/
+
+@media (max-width: 767px) {
+  .theme-blue-gradient img.mobile-profile-img {
+    border-color: #1457f2;
+  }
+}
+
+@media (max-width: 575px) {
+  .theme-blue-gradient .copyright-contact {
+    background-image: linear-gradient(to right, #01c1fb 0%, #1457f2 100%);
+  }
+}
+
+/* THEME BLUE GRADIENT END*/
+
+/* THEME DEFAULT */
+
+/*--- 01. GENERAL SETTINGS ---*/
+
+.theme-default .title-section {
+  background-color: #039be5;
+}
+
+.theme-default .button {
+  background-color: #039be5;
+}
+
+.theme-default .button:hover {
+  background-color: rgba(3, 155, 229, 0.9)
+}
+
+/*--- 01. GENERAL SETTINGS END ---*/
+
+/*--- 02. PRELOADER ---*/
+
+/*--- 02. PRELOADER END ---*/
+
+/*--- 03. NAVIGATION -----*/
+
+.theme-default .mobile-nav i {
+  color: #039be5;
+}
+
+.theme-default .mobile-nav span {
+  color: #039be5;
+}
+
+.theme-default .menu-text li a:hover {
+  background: #039be5;
+}
+
+.theme-default .social-links li a {
+  color: #039be5;
+}
+
+/*--- 03. NAVIGATION END -----*/
+
+/*--- 04. COPYRIGHT ---*/
+
+/*--- 04. COPYRIGHT END---*/
+
+/*--- 04. HOME HEADER ---*/
+
+.theme-default .title-page {
+  border-bottom-color: #039be5;
+  color: #039be5;
+}
+
+/*--- 04. HOME HEADER END---*/
+
+/*--- 06. ABOUT SECTION ---*/
+
+/*--- Skillbar ---*/
+
+.theme-default .skillbar-bar {
+  background: #039be5;
+}
+
+.theme-default .card {
+  border-color: #039be5;
+}
+
+.theme-default .card>i {
+  color: #039be5;
+  border-bottom-color: #039be5;
+}
+
+/*--- 06. ABOUT SECTION END ---*/
+
+/*--- 07. PORTFOLIO SECTION ---*/
+
+.theme-default #filter a:hover {
+  background-color: #039be5;
+}
+
+.theme-default .active-filter {
+  background-color: #039be5;
+}
+
+/* hover img */
+
+.theme-default figure.effect-sadie figcaption::before {
+  background: -webkit-linear-gradient(top, rgba(72, 76, 97, 0) 0%, #039be5 75%);
+  background: linear-gradient(to bottom, rgba(72, 76, 97, 0) 0%, #039be5 75%);
+}
+
+/*--- 07. PORTFOLIO SECTION END ---*/
+
+/*--- 09. RESUME SECTION ---*/
+
+.theme-default .resume-inner {
+  border-left-color: #039be5;
+}
+
+.theme-default .resume-row:after {
+  background: #039be5;
+}
+
+.theme-default .resume-date {
+  background: #039be5;
+}
+
+/*--- 09. RESUME SECTION END---*/
+
+/*--- 10. CONTACT SECTION ---*/
+
+.theme-default .form-control:focus {
+  border-color: #039be5;
+}
+
+.theme-default .text-success {
+  color: #039be5 !important;
+}
+
+/*--- 10. CONTACT SECTION END ---*/
+
+/*--- 11. MEDIA QUERIES FOR RESPONSIVE DESIGN ---*/
+
+@media (max-width: 767px) {
+  .theme-default img.mobile-profile-img {
+    border-color: #039be5;
+  }
+}
+
+@media (max-width: 575px) {
+  .theme-default .copyright-contact {
+    background-color: #039be5;
+  }
+}
+
+/* THEME DEFAULT END*/
+
+/* THEME PINK */
+
+/*--- 01. GENERAL SETTINGS ---*/
+
+.theme-pink .title-section {
+  background-color: #e91e63;
+}
+
+.theme-pink .button {
+  background-color: #e91e63;
+}
+
+.theme-pink .button:hover {
+  background-color: rgba(233, 30, 99, 0.9);
+}
+
+/*--- 01. GENERAL SETTINGS END ---*/
+
+/*--- 02. PRELOADER ---*/
+
+/*--- 02. PRELOADER END ---*/
+
+/*--- 03. NAVIGATION -----*/
+
+.theme-pink .mobile-nav i {
+  color: #e91e63;
+}
+
+.theme-pink .mobile-nav span {
+  color: #e91e63;
+}
+
+.theme-pink .menu-text li a:hover {
+  background: #e91e63;
+}
+
+.theme-pink .social-links li a {
+  color: #e91e63;
+}
+
+/*--- 03. NAVIGATION END -----*/
+
+/*--- 04. COPYRIGHT ---*/
+
+/*--- 04. COPYRIGHT END---*/
+
+/*--- 04. HOME HEADER ---*/
+
+.theme-pink .title-page {
+  border-bottom-color: #e91e63;
+  color: #e91e63;
+}
+
+/*--- 04. HOME HEADER END---*/
+
+/*--- 06. ABOUT SECTION ---*/
+
+/*--- Skillbar ---*/
+
+.theme-pink .skillbar-bar {
+  background: #e91e63;
+}
+
+.theme-pink .card {
+  border-color: #e91e63;
+}
+
+.theme-pink .card>i {
+  color: #e91e63;
+  border-bottom-color: #e91e63;
+}
+
+/*--- 06. ABOUT SECTION END ---*/
+
+/*--- 07. PORTFOLIO SECTION ---*/
+
+.theme-pink #filter a:hover {
+  background-color: #e91e63;
+}
+
+.theme-pink .active-filter {
+  background-color: #e91e63;
+}
+
+/* hover img */
+
+.theme-pink figure.effect-sadie figcaption::before {
+  background: -webkit-linear-gradient(top, rgba(72, 76, 97, 0) 0%, #e91e63 75%);
+  background: linear-gradient(to bottom, rgba(72, 76, 97, 0) 0%, #e91e63 75%);
+}
+
+/*--- 07. PORTFOLIO SECTION END ---*/
+
+/*--- 09. RESUME SECTION ---*/
+
+.theme-pink .resume-inner {
+  border-left-color: #e91e63;
+}
+
+.theme-pink .resume-row:after {
+  background: #e91e63;
+}
+
+.theme-pink .resume-date {
+  background: #e91e63;
+}
+
+/*--- 09. RESUME SECTION END---*/
+
+/*--- 10. CONTACT SECTION ---*/
+
+.theme-pink .form-control:focus {
+  border-color: #e91e63;
+}
+
+.theme-pink .text-success {
+  color: #e91e63 !important;
+}
+
+/*--- 10. CONTACT SECTION END ---*/
+
+/*--- 11. MEDIA QUERIES FOR RESPONSIVE DESIGN ---*/
+
+@media (max-width: 767px) {
+  .theme-pink img.mobile-profile-img {
+    border-color: #e91e63;
+  }
+}
+
+@media (max-width: 575px) {
+  .theme-pink .copyright-contact {
+    background-color: #e91e63;
+  }
+}
+
+/* THEME PINK END*/
