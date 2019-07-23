@@ -1,0 +1,9 @@
+{
+  "name": "truonghungit-cv",
+  "version": "0.0.1",
+  "description": "Hung Pham CV",
+  "author": "truonghungit",
+  "scripts": {
+    "dev": "lite-server -c bs-config.js"
+  }
+}

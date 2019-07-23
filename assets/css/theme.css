@@ -89,6 +89,10 @@
   background: linear-gradient(to bottom, rgba(72, 76, 97, 0) 0%, #1457f2 75%);
 }
 
+.theme-blue-gradient figure.effect-sadie h3 {
+  background: linear-gradient(to bottom, rgba(72, 76, 97, 0) 0%, #1457f2 75%);
+}
+
 /*--- 07. PORTFOLIO SECTION END ---*/
 
 /*--- 09. RESUME SECTION ---*/

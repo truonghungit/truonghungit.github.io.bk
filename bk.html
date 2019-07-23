@@ -47,7 +47,7 @@
         <ul class="social-links">
           <li><a href="#"><i class="fa ion-social-twitter" aria-hidden="true"></i></a></li>
           <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-          <li><a href="https://www.facebook.com/truonghung111"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
           <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
         </ul>
       </nav>
@@ -92,13 +92,13 @@
                     <p> <span> Name</span> - Pham Truong Hung </p>
                   </li>
                   <li>
-                    <p> <span> Phone</span> - (077) 247 4842 </p>
+                    <p> <span> Phone</span> - 0772474842 </p>
                   </li>
                   <li>
                     <p> <span> Email</span> - truonghungit@gmail.com </p>
                   </li>
                   <li>
-                    <p> <span> Brithday</span> - 20 / 04 / 1992 </p>
+                    <p> <span> Brithday</span> - 12 Dec 1992 </p>
                   </li>
                   <li>
                     <p> <span> Nationality</span> - Viet Nam </p>
@@ -151,6 +151,56 @@
 
                 </div> <!-- /#skill -->
               </div> <!-- /.skill  -->
+
+              <!-- services-section -->
+              <div class="services">
+                <h4 class="title-section">My Services</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit illum dolores fugit ut ratione
+                  quidem rem eveniet id, sapiente facilis maxime suscipit nostrum.</p>
+                <!-- card-1 -->
+                <div class="card-deck align-middle">
+                  <div class="card">
+                    <i class="fa ion-earth" aria-hidden="true"></i>
+                    <div class="card-body">
+                      <h5 class="card-title">Web Development</h5>
+                      <p class="card-text">Nunc porta dui a neque hendrerit imperdiet. Cras suscipit arcu risus, nec
+                        ultrices arcu fringilla at. Praesent facilisis, erat id placerat finibus, ex leo vehicula
+                        ipsum, sed dictum dui.</p>
+                    </div>
+                  </div><!-- /.card -->
+                  <!-- card-2 -->
+                  <div class="card">
+                    <i class="fa ion-images" aria-hidden="true"></i>
+                    <div class="card-body">
+                      <h5 class="card-title">Graphic Design</h5>
+                      <p class="card-text">Duis vehicula nunc efficitur nibh pellentesque, ut dapibus purus posuere.
+                        Cras a placerat arcu. Nunc pretium tincidunt nisi, eget bibendum eros dignissim quis.</p>
+                    </div>
+                  </div><!-- /.card -->
+                  <!-- card-3 -->
+                  <div class="card">
+                    <i class="fa ion-bag" aria-hidden="true"></i>
+                    <div class="card-body">
+                      <h5 class="card-title">Branding</h5>
+                      <p class="card-text">Quisque sodales augue ac eros commodo pellentesque. Sed dapibus condimentum
+                        elementum. Sed accumsan fermentum ex vel blandit.</p>
+                    </div>
+                  </div><!-- /.card -->
+                </div><!-- /.card-deck  -->
+              </div><!-- /.services -->
+              <!-- clients-section -->
+              <div class="clients">
+                <h4 class="title-section">Clients</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit illum dolores fugit ut ratione
+                  quidem rem eveniet id,</p>
+                <!-- carousel-section -->
+                <div class="owl-carousel clients-slide">
+                  <div><img src="/assets/images/clients/company.png" alt=""></div>
+                  <div><img src="/assets/images/clients/company-2.png" alt=""></div>
+                  <div><img src="/assets/images/clients/company-3.png" alt=""></div>
+                  <div><img src="/assets/images/clients/company-4.png" alt=""></div>
+                </div>
+              </div><!-- /.clients -->
             </div><!-- /.col-md-10 -->
           </div><!-- /.row  -->
         </div><!-- /.container-fluid -->
@@ -339,16 +389,63 @@
                 <h4 class="title-section">Get In Touch</h4>
                 <ul>
                   <li>
-                    <p> <span> Address</span> - Ho Chi Minh City , Vietnam</p>
+                    <p> <span> Address</span> - Street, City, Country</p>
                   </li>
                   <li>
-                    <p> <span> Phone</span> - (077) 247 4842</p>
+                    <p> <span> Phone</span> - (123) 456 789</p>
                   </li>
                   <li>
-                    <p> <span> E-mail</span> - truonghungit@gmail.com </p>
+                    <p> <span> E-mail</span> - your-email@mail.com </p>
                   </li>
                 </ul>
               </div><!-- /.personal-info -->
+
+              <div class="row">
+                <!-- block form -->
+                <div class="col-md-12 col-lg-12">
+                  <div class="well">
+                    <form id="contactForm" autocomplete="off" autocomplete="nope" data-toggle="validator" class="shake">
+
+                      <div class="form-group">
+                        <!-- ENTER MANE -->
+                        <input type="text" autocomplete="off" class="form-control" id="name" placeholder="Enter name" required data-error="Please enter your name">
+                        <div class="help-block with-errors"></div>
+                      </div>
+
+                      <div class="form-group">
+                        <!-- ENTER EMAIL -->
+                        <input type="email" autocomplete="off" class="form-control" id="email" placeholder="Enter email" required
+                          data-error="Please enter your email address">
+                        <div class="help-block with-errors"></div>
+                      </div>
+
+                      <div class="form-group">
+                        <!-- ENTER MESSAGE -->
+                        <textarea id="message" class="form-control" rows="5" placeholder="Enter your message" required
+                          data-error="Please enter your message"></textarea>
+                        <div class="help-block with-errors"></div>
+                      </div>
+
+                      <!-- button form submit -->
+                      <div class="submit">
+                        <div class="content-button">
+                          <button id="form-submit" class="button">SUBMIT</button>
+                        </div>
+                        <div id="msgSubmit" class="h5 h5 text-danger hidden"></div>
+                      </div>
+                    </form>
+                    <!-- GOOGLE-MAP-2 (For Mobile Devices)-->
+                    <div class="mobile-panel-cart">
+                      <div id="map_canvas2" class="karta"></div>
+                    </div>
+
+                    <div class="copyright-contact">
+                      <span>© truonghungit 2019</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  /.row form -->
 
             </div><!-- /.col-md-10 -->
           </div><!-- /.row  -->
@@ -363,8 +460,8 @@
 
   </div> <!-- /.bg-title  -->
 
-  <!-- <script src="assets/js/googlemap.js"></script> -->
-  <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDa77CMiGw5QRvFTl8oeV1qBet4XQe6fs&callback=initMap"></script> -->
+  <script src="assets/js/googlemap.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDa77CMiGw5QRvFTl8oeV1qBet4XQe6fs&callback=initMap"></script>
   <script src="assets/js/jquery-3.2.1.min.js"></script>
   <script src='assets/js/jquery.shuffle.min.js'></script>
   <script src="assets/js/imagesloaded.pkgd.min.js"></script>
