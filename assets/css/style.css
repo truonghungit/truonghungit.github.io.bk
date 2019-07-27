@@ -15,14 +15,6 @@
 /*--- 11. MEDIA QUERIES FOR RESPONSIVE DESIGN ---*/
 /*--------------------------------*/
 /*--- 01. GENERAL SETTINGS ---*/
-::-webkit-scrollbar {
-  width: 6px;
-  background-color: #fff;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #a6a6a6;
-}
 
 :focus {
   outline: -webkit-focus-ring-color none !important;
@@ -962,6 +954,18 @@ figure.effect-sadie:hover i {
   }
 }
 
+@media (min-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 6px;
+    background-color: #fff;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #a6a6a6;
+  }
+
+}
+
 @media (max-width: 767px) {
 
   /* Navigation */
@@ -1074,17 +1078,5 @@ figure.effect-sadie:hover i {
 
   .menu-text {
     margin-top: 48px;
-  }
-}
-
-@media (max-width: 360px) {
-  .home-content {
-    right: 15px;
-    left: 16.3%;
-    margin-top: 72px;
-  }
-
-  .home-title-text {
-    width: 100%;
   }
 }
