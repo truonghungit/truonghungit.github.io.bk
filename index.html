@@ -31,7 +31,6 @@
     <div class="col-lg-2 pd-left">
       <div class="mobile-nav show">
         <i class="fa ion-navicon" aria-hidden="true"></i>
-        <span>Menu</span>
       </div>
       <nav class="nav-menu">
         <div class="header-menu">
@@ -44,11 +43,13 @@
           <li><a href="#resume">Resume</a></li>
         </ul>
         <ul class="social-links">
-          <li><a href="#"><i class="fa ion-social-twitter" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-          <li><a href="https://www.facebook.com/truonghung111"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <li><a target="_blank" href="#"><i class="fa ion-social-twitter" aria-hidden="true"></i></a></li>
+          <li><a target="_blank" href="https://github.com/truonghungit"><i class="fa fa-github"
+                aria-hidden="true"></i></a></li>
+          <li><a target="_blank" href="https://www.facebook.com/truonghung111"><i class="fa fa-facebook"
+                aria-hidden="true"></i></a>
           </li>
-          <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+          <li><a target="_blank" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
         </ul>
       </nav>
     </div><!-- /.col-lg-2 -->
@@ -99,23 +100,25 @@
 
               <!-- Skill-bar-section -->
               <div class='skill'>
-                <h4 class="title-section">My Skills</h4>
+                <h4 class="title-section">My Skills and expertise</h4>
                 <p></p>
                 <!-- progress bar -->
                 <ul id="skills">
+                  <li>HTML</li>
+                  <li>CSS</li>
                   <li>AngularJS</li>
                   <li>Angular</li>
                   <li>NgRx</li>
                   <li>Rxjs - Reactive</li>
-                  <li>Angular - Material</li>
-                  <li>HTML</li>
+                  <li>Angular Material</li>
                   <li>Bootstrap</li>
+                  <li>IONIC</li>
                   <li>NodeJS</li>
-                  <li>SCSS</li>
-                  <li>Git</li>
                   <li>Firebase</li>
                   <li>MongoDB</li>
                   <li>Restful API</li>
+                  <li>Git</li>
+                  <li>Git Flow</li>
                   <li>CI/CD</li>
                 </ul> <!-- /#skill -->
               </div> <!-- /.skill  -->
@@ -354,6 +357,54 @@
   <script src="assets/js/validator.min.js"></script>
   <script src="assets/js/form-scripts.js"></script>
   <script src="assets/js/main.js"></script>
+
+  <script>
+    $(document).ready(() => {
+
+      $('.nav-menu .menu-text li').click(() => {
+        $('.nav-menu').removeClass('mobile-menu-open');
+        $('.mobile-nav').removeClass('bg-nav');
+      })
+
+      const menu = $('.mobile-nav');
+      let pos = 0;
+
+      $('#about.panel').scroll(() => {
+        let scrollPos = $('#about.panel').scrollTop();
+
+        if (pos < scrollPos) {
+          menu.removeClass('show');
+        } else {
+          menu.addClass('show');
+        }
+        pos = scrollPos;
+      })
+
+      $('#resume.panel').scroll(() => {
+        let scrollPos = $('#resume.panel').scrollTop();
+
+        if (pos < scrollPos) {
+          menu.removeClass('show');
+        } else {
+          menu.addClass('show');
+        }
+        pos = scrollPos;
+      })
+
+      $('#portfolio.panel').scroll(() => {
+        let scrollPos = $('#portfolio.panel').scrollTop();
+
+        if (pos < scrollPos) {
+          menu.removeClass('show');
+        } else {
+          menu.addClass('show');
+        }
+        pos = scrollPos;
+      })
+
+    });
+
+  </script>
 
 </body>
 
