@@ -57,8 +57,14 @@
 
 /*--- Skillbar ---*/
 
-.theme-blue-gradient .skillbar-bar {
-  background-image: linear-gradient(to right, #01c1fb 0%, #1457f2 100%);
+.theme-blue-gradient #skills li {
+  color: #222;
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.theme-blue-gradient #skills li:hover {
+  color: #ffffff;
+  background: #1457f2;
 }
 
 .theme-blue-gradient .card {
@@ -89,10 +95,6 @@
   background: linear-gradient(to bottom, rgba(72, 76, 97, 0) 0%, #1457f2 75%);
 }
 
-.theme-blue-gradient figure.effect-sadie h3 {
-  background: linear-gradient(to bottom, rgba(72, 76, 97, 0) 0%, #1457f2 75%);
-}
-
 /*--- 07. PORTFOLIO SECTION END ---*/
 
 /*--- 09. RESUME SECTION ---*/
@@ -110,18 +112,6 @@
 }
 
 /*--- 09. RESUME SECTION END---*/
-
-/*--- 10. CONTACT SECTION ---*/
-
-.theme-blue-gradient .form-control:focus {
-  border-color: #1457f2;
-}
-
-.theme-blue-gradient .text-success {
-  color: #1457f2 !important;
-}
-
-/*--- 10. CONTACT SECTION END ---*/
 
 /*--- 11. MEDIA QUERIES FOR RESPONSIVE DESIGN ---*/
 
@@ -198,10 +188,6 @@
 
 /*--- Skillbar ---*/
 
-.theme-default .skillbar-bar {
-  background: #039be5;
-}
-
 .theme-default .card {
   border-color: #039be5;
 }
@@ -247,18 +233,6 @@
 }
 
 /*--- 09. RESUME SECTION END---*/
-
-/*--- 10. CONTACT SECTION ---*/
-
-.theme-default .form-control:focus {
-  border-color: #039be5;
-}
-
-.theme-default .text-success {
-  color: #039be5 !important;
-}
-
-/*--- 10. CONTACT SECTION END ---*/
 
 /*--- 11. MEDIA QUERIES FOR RESPONSIVE DESIGN ---*/
 
@@ -335,10 +309,6 @@
 
 /*--- Skillbar ---*/
 
-.theme-pink .skillbar-bar {
-  background: #e91e63;
-}
-
 .theme-pink .card {
   border-color: #e91e63;
 }
@@ -384,18 +354,6 @@
 }
 
 /*--- 09. RESUME SECTION END---*/
-
-/*--- 10. CONTACT SECTION ---*/
-
-.theme-pink .form-control:focus {
-  border-color: #e91e63;
-}
-
-.theme-pink .text-success {
-  color: #e91e63 !important;
-}
-
-/*--- 10. CONTACT SECTION END ---*/
 
 /*--- 11. MEDIA QUERIES FOR RESPONSIVE DESIGN ---*/
 
